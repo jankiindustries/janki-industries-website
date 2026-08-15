@@ -304,10 +304,12 @@ footer{
     }
 
     .logo{
-        width:240px;
-        height:90px;
+        width:240px !important;
+        height:90px !important;
         object-fit:contain;
         object-position:center;
+        transform:scale(1.5);
+        transform-origin:center;
     }
 
     .hero{
